@@ -7,7 +7,7 @@ const App: React.FC = () => {
     <div className="app-container">
       <Header />
       <div className="content">
-        <h1>Welcome to the Waitlist App</h1>
+        <h1></h1>
         <p>Join our waitlist to stay updated!</p>
       </div>
     </div>
