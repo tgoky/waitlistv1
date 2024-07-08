@@ -14,7 +14,7 @@ const Header: React.FC = () => {
         <h1>Waitlist App</h1>
         <button onClick={handleShow}>Join Waitlist</button>
       </header>
-      <ModalForm show={show} handleClose={handleClose} />
+      {show && <ModalForm show={show} handleClose={handleClose} />}
     </>
   );
 };

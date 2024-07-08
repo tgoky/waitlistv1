@@ -20,6 +20,7 @@ const ModalForm: React.FC<ModalFormProps> = ({ show, handleClose }) => {
   return (
     <div className="modal-overlay">
       <div className="modal">
+        <button className="close-button" onClick={handleClose}>&times;</button>
         <h2>Join Our Waitlist</h2>
         <form onSubmit={handleSubmit}>
           <input
